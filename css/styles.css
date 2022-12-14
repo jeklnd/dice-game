@@ -1,0 +1,74 @@
+:root {
+    --background-color: #2B3A55;
+    --text-color: #E8C4C4;
+}
+
+body {
+    background-color: var(--background-color);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #CE7777;
+}
+
+p {
+   color: var(--text-color);
+   margin: 0;
+}
+
+.btn {
+    color: var(--background-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* background-color: #E8C4C4;
+    border: none; */
+    width: 20%;
+    margin: 3%;
+
+    color: var(--background-color);
+    background-color: #E8C4C4;
+    border-color: #E8C4C4;
+}
+
+.btn:hover, .btn:not(:disabled):not(:disabled):active, .btn:focus, .btn:disabled {
+    color: #F2E5E5;
+    background-color: #CE7777;
+    border-color: #CE7777;
+    box-shadow: none;
+}
+
+.title {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 4rem;
+    padding-top: 2%;
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 3% 32%;
+}
+
+.player-names {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10% 0%;
+}
+
+#footer {
+    padding: 2%;
+}
+
+.footer-logos {
+    padding: 0.5rem 0.4rem;
+    border: none;
+    background-color: var(--background-color);
+    color: #F2E5E5
+}
+
+.copyright {
+    font-size: 0.74rem;
+    color: #F2E5E5
+}
